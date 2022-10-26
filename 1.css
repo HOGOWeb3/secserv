@@ -1,0 +1,84 @@
+﻿body {
+    /*padding-top:60px*/
+}
+
+.qt{
+    font-weight:bold;
+    display:block;
+    margin-top:20px
+}
+
+.my-button{
+    padding: 5px 20px;
+    font-size: 120%;
+}
+
+.chat-part {
+    width:100%;
+    background-color: #eee;
+    border: #99c solid 1px;
+    border-radius: 5px; 
+}
+
+.chat-admin {
+    background-color: #eee;
+    border: #99c solid 1px;
+    border-radius: 5px; 
+}
+
+.error {
+    color: red;
+}
+
+.chat-message,.chat-nik {
+    padding:5px;
+    margin:1px;
+}
+
+.chat-message {
+    float:left;
+    clear:both;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: gray;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: gray;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 0 16px 0 0;
+}
+
+.chat-message-foregin {
+    float:right;
+    background-position: left;
+    padding: 0 0 0 16px;
+}
+
+.chat-message-service {
+    float: none;
+    clear:both;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    margin: 1px;
+    font-style: italic;
+}
+
+.nik-inactive {
+    background:  url("img/watch.png") right no-repeat;
+    padding-right: 16px;
+}
+
+.nik-exited {
+    text-decoration: line-through;
+}
+
+.chat-message.read-all {
+    background-image: url('img/ok.png');
+}
+
+.chat-message.read-partial {
+    background-image: url('img/watch.png');
+}
